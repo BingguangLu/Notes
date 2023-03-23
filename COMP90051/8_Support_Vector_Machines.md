@@ -213,7 +213,7 @@ Soft-margin SVM loss (hinge loss)
 $$
 l_h = \begin{cases}
     0 \text{ if } 1 - y_i(w^\prime x_i + b) \leq 0 \\
-    1 - y_i(w^\prime x_i + b) = 1 - y\hat{y} \text{ if otherwise} 
+    1 - y_i(w^\prime x_i + b) = 1 - y\hat{y} \text{ if otherwise}
 \end{cases}
 $$
 
