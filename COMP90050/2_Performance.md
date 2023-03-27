@@ -41,7 +41,7 @@ The same mentality exist for pretty much all query processing but we take joins 
 
 #### Example
 
-```
+```sudo
 for each tuple t_r in r do begin
     for each tuple t_s in s do begin
         test pair (t_r, t_s) to see if they satisfy the join condition theta
@@ -89,7 +89,7 @@ With customer as the outer relation:
 
 Hence the better way is:
 
-```
+```sudo
 for each block B_r of r do begin
     for each block B_s of s do begin
         for each tuple t_r in B_r do begin
